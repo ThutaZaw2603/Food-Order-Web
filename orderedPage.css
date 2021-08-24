@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family:'Quicksand', sans-serif;
+   
+}
+
+body{
+    background:rgba(238, 238, 238, 0.877);
+
+}
+
+.backArrowDiv{
+    width: 100%;
+    padding:20px;
+    margin-top:20px ;
+}
+
+/*
+.clipPath{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    z-index: -1; 
+    background:#f5b639;
+    clip-path: polygon(62% 0, 0 0, 0 20%);
+    -webkit-clip-path: circle(25% at 6% 0);
+}*/
+
+.clipPath2{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    z-index: -1; 
+    background:#f5b639;
+    clip-path: circle(20.3% at 41% 49%);
+    -webkit-clip-path: circle(18% at 48% 48%);
+}
+.backArrowDiv img{
+ width: 30px;
+   height: 30px;
+   opacity: .6;
+}
+
+.backArrowDiv a{
+    text-decoration: none;
+    color:/*rgb(82, 81, 81)*/white;
+    font-size: 19px;
+    opacity: .9;
+ 
+}
+
+.backArrowDiv a:visited{
+    color:rgb(82, 81, 81);
+    opacity: .5;
+}
+
+.thzDiv{
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:20px;
+    transform: translate(-50%,-50%);
+    width:100%;
+}
+
+.thzDiv h1{
+    font-size:60px;
+    text-align: left;
+    letter-spacing: 5px;
+    color:rgba(82, 81, 81, 0.877);
+    font-weight: 600;
+    margin:0px 0px 0px 1.2rem;
+   /* background:#f5b639;*/
+}
+
+.thzDiv h3{
+    font-weight: 400;
+    font-size: 20px;
+    color:rgb(82, 81, 81);
+    text-align: right;
+    opacity:.7;
+}
+
+.contact{
+    position:absolute;
+    bottom: 0;
+    left:30%;
+}
+
+.contact p{
+    color:rgb(82, 81, 81);
+    font-size: 14px;
+    opacity:.9;
+}
